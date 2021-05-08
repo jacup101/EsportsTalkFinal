@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EsportsTalk" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="DarkMode"   parent="Theme.MaterialComponents.DayNight.DarkActionBar" >
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+        <item name="background">@color/darkModeBackground</item>
+        <item name="backgroundColor">@color/darkModeBackground</item>
+        <item name="android:colorBackground">@color/darkModeBackground</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="tabStyle">@style/darkTabLayout</item>
+        <item name="radioButtonStyle">@style/radioDarkText</item>
+        <item name="editTextStyle">@style/editTextDark</item>
+
+    </style>
+
+    <style name="darkTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/darkModeBackground</item>
+        <item name="tabTextColor">@color/teal_200</item>
+    </style>
+
+    <style name="radioDarkText" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+
+        <item name="android:buttonTint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+
+        <item name="tint">@color/white</item>
+    </style>
+    <style name="editTextDark" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/offwhite</item>
+    </style>
+</resources>
